@@ -1,4 +1,4 @@
-const clock = document.getElementById("clock");
+let clock = document.getElementById("clock");
 
 setInterval(() => {
   let date = new Date();
